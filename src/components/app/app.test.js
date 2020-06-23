@@ -13,6 +13,7 @@ it(`App should render correctly`, () => {
         `Nice, cozy, warm big bed apartment`,
         `Wood and stone place`
       ]}
+      onCardHeaderClick={() => {}}
     />)
     .toJSON();
 

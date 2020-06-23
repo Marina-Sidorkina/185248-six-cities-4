@@ -84,6 +84,7 @@ exports[`Card should render correctly 1`] = `
     >
       <a
         href="#"
+        onClick={[Function]}
       >
         Wood and stone place
       </a>

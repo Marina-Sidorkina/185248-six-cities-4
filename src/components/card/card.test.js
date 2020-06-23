@@ -6,6 +6,7 @@ it(`Card should render correctly`, () => {
   const cardTree = renderer
     .create(<Card
       offer={`Wood and stone place`}
+      onCardHeaderClick={() => {}}
     />)
     .toJSON();
 

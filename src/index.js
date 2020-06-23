@@ -13,13 +13,15 @@ const init = () => {
       `Canal View Prinsengracht`,
       `Nice, cozy, warm big bed apartment`,
       `Wood and stone place`
-    ]
+    ],
+    onCardHeaderClick: () => {}
   };
 
   ReactDOM.render(
       <App
         resultAmount={settings.resultAmount}
         offersList={settings.offersList}
+        onCardHeaderClick={settings.onCardHeaderClick}
       />,
       rootElement
   );
